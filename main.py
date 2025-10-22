@@ -3,7 +3,6 @@ from pynput import keyboard
 
 def main():
     listener = alt_keyboard_listener()
-    #
     def on_press(key):
         listener.on_press(key)
 
